@@ -7,17 +7,31 @@ html {
 }
 
 body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 600px;
+    height: 300px;
     display: grid;
     justify-content: center;
-    margin-top: 50%;
+    align-items: center;
+    background-color: rgb(255, 192, 110);
 }
 
 a {
     background-color: white;
     color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 5px;
     padding: 20px;
     border-radius: 8px;
+    
     text-decoration: none;
 }
 
