@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+    width: 150%;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 2px solid #ddd;
+}
+
+.na {
+    text-align: left;
+}
+
+.dt:hover {
+    background-color: #D6EEEE;
+}
